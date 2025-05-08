@@ -4,8 +4,8 @@ const { stringify } = require("csv-stringify");
 const { Pool } = require("pg");
 require("dotenv").config();
 
-const results = "./results.csv";
-const error_in_uploading = "./error_in_uploading.csv";
+const results = "./output/results.csv";
+const error_in_uploading = "./output/error_in_uploading.csv";
 
 const pool = new Pool({
   user: process.env.POSTGRES_USER,
