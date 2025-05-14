@@ -1,5 +1,6 @@
 import { Handlers } from "$fresh/server.ts";
 import { verifyToken } from "../scripts/tokens.ts";
+import Cookies from "@nihility-io/use-cookie";
 
 export const handler: Handlers = {
   async GET(req, ctx) {

@@ -19,6 +19,7 @@
         "$fresh/": "https://deno.land/x/fresh@1.7.3/",
         "@hig/jwt": "jsr:@hig/jwt@^0.1.1",
         "@nihility-io/use-cookie": "jsr:@nihility-io/use-cookie@^0.1.4",
+        "@std/csv": "jsr:@std/csv@^1.0.6",
         "@std/dotenv": "jsr:@std/dotenv@^0.225.4",
         "@std/encoding": "jsr:@std/encoding@^1.0.10",
         "preact": "https://esm.sh/preact@10.22.0",
